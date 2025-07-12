@@ -1,0 +1,26 @@
+/* FlexDisplay In CSS*/
+.container {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+}
+
+.row {
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: row;
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column-reverse;*/
+  /*flex-direction: column;*/
+
+}
+.col{
+    background-color: darkturquoise;
+    padding: 15px;
+    color: white;
+    margin: 5px;
+    flex-grow: 1;         /* آیتم می‌تواند رشد کند تا فضای اضافی را پر کند*/
+    flex-shrink: 1;      /*آیتم می‌تواند جمع شود اگر فضای کافی نباشد*/
+    flex-basis: 100px;  /*اندازه اولیه آیتم 100 پیکسل است*/
+}
+

@@ -1,0 +1,72 @@
+/* Position in Css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  padding: 20px;
+  background-color: #efefef;
+}
+
+/* Static (پیش‌فرض) */
+.static {
+  position: static;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+/* Relative (نسبت به جای خودش) */
+.relative {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: #ffdd57;
+  padding: 10px;
+}
+
+/* Absolute (نسبت به body چون relative شده) */
+body {
+  position: relative; /* شرط لازم برای absolute زیر */
+}
+
+.absolute {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: #ff6f61;
+  padding: 10px;
+  color: white;
+}
+
+/* Fixed (همیشه در گوشه صفحه) */
+.fixed {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+}
+
+/* Spacer برای ایجاد فضای اسکرول */
+.spacer {
+  height: 800px;
+  background-color: #f9f9f9;
+}
+
+/* Sticky (می‌چسبه بالای صفحه بعد از اسکرول) */
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #2196F3;
+  color: white;
+  padding: 10px;
+}
+
+/* محتوای بیشتر بعد از sticky */
+.more-content {
+  padding: 20px;
+  background-color: #f0f0f0;
+}

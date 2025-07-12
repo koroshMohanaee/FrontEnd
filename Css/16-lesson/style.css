@@ -1,0 +1,17 @@
+/* stretch align-items In FlexBox*/
+
+.box{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;    /* کشیده شدن عمودی (پیش‌فرض) */
+}
+.box-item{
+  width: 100px;
+  background-color: cyan;
+  border: 1px solid black;
+  
+}

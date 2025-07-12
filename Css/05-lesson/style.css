@@ -1,0 +1,22 @@
+
+/* use Display to change inline element to block element and block elemnt to inline element*/
+div{
+    width: 500px;
+    height: auto;
+    background-color: crimson;
+}
+span{
+    width: 500px;
+    height: auto;
+    background-color:teal;
+    display: block;
+}
+ul li{
+    display: inline;
+    width: 150px;
+    height: auto;
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    
+}

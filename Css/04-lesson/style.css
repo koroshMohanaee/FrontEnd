@@ -1,0 +1,21 @@
+
+/* Descendant selector */
+.container a{
+    color: green;
+}
+.container p a{
+    color: blue;
+}
+/* Descendant selector */
+
+/* Apply only for first-head class in H1 tag */
+h1.first-head{
+    color: orangered;
+}
+/* Apply only for first-head class in H1 tag */
+
+/* grouped select */
+h2,h3{
+    color: chocolate;
+}
+/* grouped select */

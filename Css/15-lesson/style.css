@@ -1,0 +1,23 @@
+/* justify-content and align-items In FlexBox*/
+/* justify-content and align-items In FlexBox*/
+.box{
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  background-color: darkcyan;
+  display: flex;
+  flex-direction: row;
+  /*justify-content: start;*/       /* ترازافقی به ابتدا (پیش‌فرض) */
+  /*justify-content: center;*/     /* تراز افقی به مرکز */
+  /*justify-content: end;*/       /* تراز افقی به انتها */
+  /*align-items: start;*/        /* ترازعمودی به ابتدا (پیش‌فرض) */
+  /*align-items: center;*/
+  /*align-items: end;*/
+}
+.box-item{
+  width: 100px;
+  height: 100px;
+  background-color: cyan;
+  border: 1px solid black;
+  
+}
